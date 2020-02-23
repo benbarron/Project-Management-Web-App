@@ -1,0 +1,9 @@
+.images-results {
+  max-height: 450px;
+  overflow-y: scroll;
+  margin-top: 30px;
+}
+.images-results img:hover {
+  cursor: pointer;
+  border: #333 1px solid;
+}

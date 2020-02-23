@@ -1,0 +1,58 @@
+export const USER_LOADING = 'USER_LOADING';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+
+export const CLEAR_REGISTER_ERRORS = 'CLEAR_REGISTER_ERRORS';
+export const CLEAR_LOGIN_ERRORS = 'CLEAR_LOGIN_ERRORS';
+
+export const LOADING_BOARDS = 'LOADING_BOARDS';
+export const BOARDS_LOADED = 'BOARDS_LOADED';
+export const BOARD_DELETED = 'BOARD_DELETED';
+export const BOARD_CREATED = 'BOARD_CREATED';
+export const CLEAR_BOARDS = 'CLEAR_BOARDS';
+export const LOADING_BOARD_ERROR = 'LOADING_BOARD_ERROR';
+export const CREATE_BOARD = 'CREATE_BOARD';
+export const BOARD_UPDATED = 'BOARD_UPDATED';
+
+export const CREATE_CARD = 'CREATE_CARD';
+export const DELETE_CARD = 'CREATE_CARD';
+export const LOADING_CARDS = 'LOADING_CARDS';
+export const CARDS_LOADED = 'CARDS_LOADED';
+export const CARD_UPDATED = 'CARD_UPDATED';
+
+export const DELETE_TODO = 'DELETE_TODO';
+export const CREATE_TODO = 'CREATE_TODO';
+export const LOADING_TODOS = 'LOADING_TODOS';
+export const TODOS_LOADED = 'TODOS_LOADED';
+export const TODO_UPDATED = 'TODO_UPDATED';
+
+export const ITEM_MOVED = 'ITEM_MOVED';
+export const ITEM_MOVING = 'ITEM_MOVING';
+
+export const MOVING_BOARD = 'MOVING_BOARD';
+export const BOARD_MOVED = 'BOARD_MOVED';
+
+export const BOARDS_SORTED = 'BOARDS_SORTED';
+
+export const MOVING_CARD = 'MOVING_CARD';
+export const CARD_MOVED = 'CARD_MOVED';
+
+export const SET_ITEM_DRAGGING = 'SET_ITEM_DRAGGING';
+
+export const CLONING_BOARD = 'CLOANING_BOARD';
+export const BOARD_CLONED = 'BOARD_CLONED';
+
+export const CREATING_TEAM = 'CREATING_TEAM';
+
+export const TEAM_CREATED = 'TEAM_CREATED';
+
+export const TEAMS_LOADED = 'TEAMS_LOADED';
+
+export const LOADING_TEAMS = 'LOADING_TEAMS';

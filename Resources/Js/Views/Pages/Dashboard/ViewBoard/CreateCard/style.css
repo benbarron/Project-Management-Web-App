@@ -1,0 +1,48 @@
+section#board-single .cards .card-wrapper .new-card-form {
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  border-radius: 0px;
+}
+section#board-single .cards .card-wrapper .new-card-form .form-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  padding-top: 10px;
+}
+section#board-single
+  .cards
+  .card-wrapper
+  .new-card-form
+  .form-footer
+  button:hover {
+  cursor: pointer;
+}
+section#board-single .cards .card-wrapper .new-card-form .form-footer i {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 20px;
+  color: #2f3542;
+}
+section#board-single .cards .card-wrapper .new-card-form .form-footer i:hover {
+  cursor: pointer;
+}
+section#board-single .cards .card-wrapper .add-card-card {
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  border-radius: 0px;
+  text-align: center;
+}
+section#board-single .cards .card-wrapper .add-card-card button {
+  border: none;
+  background: none;
+  color: #2f3542;
+  margin: auto;
+  margin-top: 5px;
+}
+section#board-single .cards .card-wrapper .add-card-card button i {
+  margin-right: 15px;
+  color: #2f3542;
+}
+section#board-single .cards .card-wrapper .add-card-card button:hover {
+  cursor: pointer;
+}

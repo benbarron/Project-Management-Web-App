@@ -1,0 +1,7 @@
+.err-msg {
+  margin-bottom: 30px;
+}
+
+.err-msg .err-text {
+  color: #aa0000;
+}

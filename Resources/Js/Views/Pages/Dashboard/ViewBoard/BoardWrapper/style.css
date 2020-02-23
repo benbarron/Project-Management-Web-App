@@ -1,0 +1,48 @@
+section#board-single {
+  z-index: 20;
+  position: absolute;
+  top: 70px;
+  width: auto;
+  height: calc(100vh - 70px) !important;
+  overflow-x: scroll;
+  scrollbar-width: 5px;
+}
+section#board-single::-webkit-scrollbar {
+  display: block !important;
+}
+section#board-single .cards {
+  display: flex;
+  width: auto;
+  overflow-y: hidden !important;
+}
+.board-wrapper-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-position: center;
+  background-size: cover !important;
+  background-origin: inherit;
+}
+.board-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-position: center;
+  background-size: cover !important;
+  background-origin: inherit;
+}
+.board-wrapper-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 11;
+  background: rgba(0, 0, 0, 0.5);
+}

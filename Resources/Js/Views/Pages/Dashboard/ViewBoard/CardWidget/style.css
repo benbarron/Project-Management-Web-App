@@ -1,0 +1,107 @@
+section#board-single .cards .card-wrapper {
+  flex: 1;
+  width: 275px !important;
+  max-width: 275px !important;
+  max-height: calc(100vh - 70px) !important;
+  margin: 10px;
+}
+section#board-single .cards .card-wrapper:active,
+section#board-single .cards .card-wrapper:focus {
+  outline: none;
+}
+section#board-single .cards .card-wrapper .card {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  outline: none;
+  border: none;
+}
+section#board-single .cards .card-wrapper .card .card-header {
+  padding: 10px;
+  height: 60px;
+  background: #dfe1e6;
+}
+section#board-single .cards .card-wrapper .card .card-header form input,
+section#board-single .cards .card-wrapper .card .card-header form button {
+  height: 30px !important;
+  margin: 0;
+  width: 10%;
+}
+section#board-single .cards .card-wrapper .card .card-header form input {
+  padding: 0 5px;
+  width: 85%;
+  border-radius: 0 !important;
+}
+section#board-single .cards .card-wrapper .card .card-header form button {
+  margin-top: 8px;
+  border-radius: 0px 4px 4px 0px;
+}
+section#board-single .cards .card-wrapper .card .card-content {
+  height: auto;
+  overflow-y: scroll;
+  padding: 5px !important;
+  background: #dfe1e6;
+  scrollbar-width: none;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+section#board-single
+  .cards
+  .card-wrapper
+  .card
+  .card-content::-webkit-scrollbar {
+  width: 0;
+}
+section#board-single
+  .cards
+  .card-wrapper
+  .card
+  .card-content::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 10px !important;
+}
+section#board-single
+  .cards
+  .card-wrapper
+  .card
+  .card-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px !important;
+}
+section#board-single
+  .cards
+  .card-wrapper
+  .card
+  .card-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+section#board-single
+  .cards
+  .card-wrapper
+  .card
+  .card-content
+  .inner-card-droppable {
+  min-height: 50px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+section#board-single
+  .cards
+  .card-wrapper
+  .card
+  .card-content
+  .inner-card-droppable
+  .card-item {
+  margin: 8px 0;
+  width: 100%;
+}
+section#board-single .cards .card-wrapper .card .card-footer {
+  max-height: 110px;
+  background: #dfe1e6;
+}
+
+@media only screen and (max-width: 350px) {
+  section#board-single .cards .card-wrapper {
+    width: calc(100vw - 30px) !important;
+  }
+}
