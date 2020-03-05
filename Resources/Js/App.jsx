@@ -1,20 +1,14 @@
 import React, { Fragment, useEffect } from 'react';
-
 import { Route, withRouter } from 'react-router-dom';
-
 import { connect } from 'react-redux';
-
 import { loadUser } from './Actions/authActions';
 import { moveItem, reorderCards } from './Actions/dragAndDropActions';
-
 import DefaultLayout from './Views/DefaultLayout';
 import Login from './Views/Pages/Login';
 import Register from './Views/Pages/Register';
 import Welcome from './Views/Pages/Welcome';
 import ForgotPassword from './Views/Pages/ForgotPassword';
-
 import { HashLoader } from 'react-spinners';
-
 import { DragDropContext } from 'react-beautiful-dnd';
 
 import './style.css';

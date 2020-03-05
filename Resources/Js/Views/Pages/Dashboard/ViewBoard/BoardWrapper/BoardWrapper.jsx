@@ -70,8 +70,11 @@ const BoardWrapper = props => {
               ))}
               {provided.placeholder}
               <div className="card-wrapper">
-                <CreateCard id={id} />
-                <ChangeBackground board={props.board} />
+                <CreateCard id={id} style={{ zIndex: 20000 }} />
+                <ChangeBackground
+                  board={props.board}
+                  style={{ zIndex: 20000 }}
+                />
               </div>
             </div>
           </section>

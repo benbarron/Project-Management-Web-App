@@ -50,10 +50,7 @@ for (let i = 0; i < controllers.length; i++) {
 }
 
 // connect database ------------------------------------------------
-const db = env('mode', '') === 'PRODUCTION'
- ? env('mongoLocalUri', '')
- : env('mongoAtlasUri', '');
-
+const db = env('mongoLocalUri', '');
 
 mongoose
   .connect(db, {
